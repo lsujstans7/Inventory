@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "Item.h"
+#import "Book.h"
+#import "CD.h"
 
 @implementation AppDelegate
 
@@ -14,6 +17,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    Item *item = [[Item alloc] init];
+    item.price = 3.99;
+    item.releaseDate = [NSDate date];
+    
+    Book *book = [[Book alloc] init];
+    book.price = 3.99;
+    book.author = @"John";
+    
+    CD *cd = [[CD alloc] init];
+    cd.price = 3.99;
+    cd.artist = @"John";
+    
+    Item *item2 = [Item itemWithPrice:3.99 date:[NSDate date]];
+    
+    Item *item3 = [[Item alloc] initWithPrice:3.99 date:[NSDate date]];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];

@@ -9,17 +9,14 @@
 #import <Foundation/Foundation.h>
 
 @interface Item : NSObject
-//{
-//    float price;
-//    NSDate *releaseDate;
-//}
-//
-//- (float)price;
-//- (void)setPrice:(float)newPrice;
-//
-//- (NSDate *) releaseDate;
-//- (void)setReleaseDate: (NSDate *)newDate;
+
 
 @property (nonatomic) float price;
 @property (nonatomic, strong) NSDate *releaseDate;
+
++ (id)itemWithPrice:(float)price date:(NSDate *)releaseDate;
+- (id)initWithPrice:(float)price date:(NSDate *)releaseDate;
+
+- (void)sell;
+
 @end

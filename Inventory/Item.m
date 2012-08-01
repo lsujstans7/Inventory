@@ -13,21 +13,29 @@
 @synthesize price = _price;
 @synthesize releaseDate = _releaseDate;
 
-//- (float)price;
-//{
-//    return price;
-//}
-//- (void)setPrice:(float)newPrice;
-//{
-//    price = newPrice;
-//}
-//- (NSDate *) releaseDate;
-//{
-//  return releaseDate;
-//}
-//- (void)setReleaseDate: (NSDate *)newDate;
-//{
-//    releaseDate = newDate;
-//}
+- (void)sell
+{
+    NSLog(@"The Item has been sold for %f", self.price);
+}
+
++ (id)itemWithPrice:(float)price date:(NSDate *)releaseDate 
+{
+    Item *returnItem;
+    
+    returnItem.price = price;
+    returnItem.releaseDate = releaseDate;
+    
+    return returnItem;
+}
+
+- (id)initWithPrice:(float)price date:(NSDate *)releaseDate
+{
+    self = [super init];
+    if (self) {
+        //Initialize Class Here
+        
+    }
+}
+
 
 @end

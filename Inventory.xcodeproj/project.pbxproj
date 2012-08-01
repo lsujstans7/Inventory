@@ -14,6 +14,8 @@
 		5B5B196A15C9B9C400339CBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B196915C9B9C400339CBD /* main.m */; };
 		5B5B196E15C9B9C400339CBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B196D15C9B9C400339CBD /* AppDelegate.m */; };
 		5B5B197615C9BA8500339CBD /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B197515C9BA8500339CBD /* Item.m */; };
+		5B5B197915C9C94300339CBD /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B197815C9C94300339CBD /* Book.m */; };
+		5B5B197C15C9C9C800339CBD /* CD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B197B15C9C9C800339CBD /* CD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		5B5B196D15C9B9C400339CBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5B5B197415C9BA8500339CBD /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 		5B5B197515C9BA8500339CBD /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		5B5B197715C9C94300339CBD /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		5B5B197815C9C94300339CBD /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		5B5B197A15C9C9C800339CBD /* CD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CD.h; sourceTree = "<group>"; };
+		5B5B197B15C9C9C800339CBD /* CD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 			children = (
 				5B5B196C15C9B9C400339CBD /* AppDelegate.h */,
 				5B5B196D15C9B9C400339CBD /* AppDelegate.m */,
+				5B5B197715C9C94300339CBD /* Book.h */,
+				5B5B197815C9C94300339CBD /* Book.m */,
+				5B5B197A15C9C9C800339CBD /* CD.h */,
+				5B5B197B15C9C9C800339CBD /* CD.m */,
 				5B5B197415C9BA8500339CBD /* Item.h */,
 				5B5B197515C9BA8500339CBD /* Item.m */,
 				5B5B196415C9B9C400339CBD /* Supporting Files */,
@@ -159,6 +169,8 @@
 				5B5B196A15C9B9C400339CBD /* main.m in Sources */,
 				5B5B196E15C9B9C400339CBD /* AppDelegate.m in Sources */,
 				5B5B197615C9BA8500339CBD /* Item.m in Sources */,
+				5B5B197915C9C94300339CBD /* Book.m in Sources */,
+				5B5B197C15C9C9C800339CBD /* CD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
