@@ -10,6 +10,4 @@
 
 @implementation Book
 
-@synthesize title = _title;
-@synthesize author = _author;
 @end

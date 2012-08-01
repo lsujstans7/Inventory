@@ -10,6 +10,4 @@
 
 @interface CD : Item
 
-@property (nonatomic,strong)
-
 @end
