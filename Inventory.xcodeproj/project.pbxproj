@@ -13,6 +13,7 @@
 		5B5B196815C9B9C400339CBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B5B196615C9B9C400339CBD /* InfoPlist.strings */; };
 		5B5B196A15C9B9C400339CBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B196915C9B9C400339CBD /* main.m */; };
 		5B5B196E15C9B9C400339CBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B196D15C9B9C400339CBD /* AppDelegate.m */; };
+		5B5B197615C9BA8500339CBD /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B197515C9BA8500339CBD /* Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		5B5B195D15C9B9C400339CBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B5B195F15C9B9C400339CBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B5B196115C9B9C400339CBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5B5B196515C9B9C400339CBD /* Inventory-Info.plist */ = {isa = PBXFileReference; path = "Inventory-Info.plist"; sourceTree = "<group>"; };
+		5B5B196515C9B9C400339CBD /* Inventory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Inventory-Info.plist"; sourceTree = "<group>"; };
 		5B5B196715C9B9C400339CBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B5B196915C9B9C400339CBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5B5B196B15C9B9C400339CBD /* Inventory-Prefix.pch */ = {isa = PBXFileReference; path = "Inventory-Prefix.pch"; sourceTree = "<group>"; };
-		5B5B196C15C9B9C400339CBD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B5B196B15C9B9C400339CBD /* Inventory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Inventory-Prefix.pch"; sourceTree = "<group>"; };
+		5B5B196C15C9B9C400339CBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B5B196D15C9B9C400339CBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B5B197415C9BA8500339CBD /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		5B5B197515C9BA8500339CBD /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			children = (
 				5B5B196C15C9B9C400339CBD /* AppDelegate.h */,
 				5B5B196D15C9B9C400339CBD /* AppDelegate.m */,
+				5B5B197415C9BA8500339CBD /* Item.h */,
+				5B5B197515C9BA8500339CBD /* Item.m */,
 				5B5B196415C9B9C400339CBD /* Supporting Files */,
 			);
 			path = Inventory;
@@ -153,6 +158,7 @@
 			files = (
 				5B5B196A15C9B9C400339CBD /* main.m in Sources */,
 				5B5B196E15C9B9C400339CBD /* AppDelegate.m in Sources */,
+				5B5B197615C9BA8500339CBD /* Item.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
