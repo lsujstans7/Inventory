@@ -10,21 +10,24 @@
 
 @implementation Item
 
-- (float)price;
-{
-    return price;
-}
-- (void)setPrice:(float)newPrice;
-{
-    price = newPrice;
-}
-- (NSDate *) releaseDate;
-{
-    return releaseDate;
-}
-- (void)setReleaseDate: (NSDate *)newDate;
-{
-    releaseDate = newDate;
-}
+@synthesize price = _price;
+@synthesize releaseDate = _releaseDate;
+
+//- (float)price;
+//{
+//    return price;
+//}
+//- (void)setPrice:(float)newPrice;
+//{
+//    price = newPrice;
+//}
+//- (NSDate *) releaseDate;
+//{
+//  return releaseDate;
+//}
+//- (void)setReleaseDate: (NSDate *)newDate;
+//{
+//    releaseDate = newDate;
+//}
 
 @end
