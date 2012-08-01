@@ -17,22 +17,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSArray *array = [NSArray arrayWithObjects:@"Blue", @"Green", @"Red", nil];
+    NSMutableArray *itemsArray = [[NSMutableArray alloc] init];
     
-    NSLog(@"Array: %@ ",array);
+    Book *book1 = [[Book alloc]init];
+    book1.price = 2.99;
+    book1.author = @"John";
+    book1.releaseDate = [NSDate date];
+    book1.title = @"Fun with Cocoa Touch";
     
-    NSString *green = [array objectAtIndex:1];
-    NSLog(@"Object at index 1: %@", green);
+    [itemsArray addObject:book1];
     
-    NSMutableArray *mutArray = [[NSMutableArray alloc] init];
-    [mutArray addObject:@"Purple"];
-    [mutArray addObject:@"Yellow"];
-    [mutArray addObject:@"Violet"];
-    
-    [mutArray removeObject:@"Yellow"];
-    [mutArray removeObjectAtIndex:1];
-    
-    [mutArray insertObject:@"Blue" atIndex:1];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.

@@ -33,9 +33,15 @@
     self = [super init];
     if (self) {
         //Initialize Class Here
-        
+        self.price = price;
+        self.releaseDate = releaseDate;
     }
+    return self;
 }
 
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"Item at price: %.2f", self.price];
+}
 
 @end
