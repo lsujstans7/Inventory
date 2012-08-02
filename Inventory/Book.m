@@ -9,6 +9,8 @@
 #import "Book.h"
 
 @implementation Book
+@synthesize author = _author;
+@synthesize title = _title;
 
 - (NSString *)description
 {

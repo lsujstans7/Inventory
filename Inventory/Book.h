@@ -10,5 +10,7 @@
 
 @interface Book : Item
 
+@property (nonatomic,strong)NSString *author;
+@property (nonatomic,strong)NSString *title;
 
 @end

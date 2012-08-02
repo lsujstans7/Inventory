@@ -25,8 +25,14 @@
     book1.releaseDate = [NSDate date];
     book1.title = @"Fun with Cocoa Touch";
     
-    [itemsArray addObject:book1];
+    CD *cd1 = [[CD alloc]init];
+    cd1.price = 14.99;
+    cd1.artist = @"John";
+    cd1.releaseDate = [NSDate date];
+    cd1.title = @"Minutes to Midnight";
     
+    [itemsArray addObject:book1];
+    [itemsArray addObject:cd1];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.

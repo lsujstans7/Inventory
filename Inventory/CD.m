@@ -10,4 +10,7 @@
 
 @implementation CD
 
+@synthesize artist = _artist;
+@synthesize title = _title;
+
 @end

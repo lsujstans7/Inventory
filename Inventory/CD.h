@@ -10,4 +10,7 @@
 
 @interface CD : Item
 
+@property (nonatomic,strong)NSString *artist;
+@property (nonatomic,strong)NSString *title;
+
 @end
